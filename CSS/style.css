@@ -4,32 +4,64 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family:"Poppins light" ;
+    src: url("/font/Poppins-light.ttf") ;
+ }
 
+ body {
+    font-family:"Poppins light" ;
+ }
+ 
 
 /*partie header*/
+
+header :first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 header img {
     padding: 1rem 2rem;
 }
 
-nav ul {
-    margin:0;
-    padding: 0;
+nav {
+    margin-right: 1rem;
 }
  
 nav li {
     list-style:none;
-    float:right;
-    margin-right: 8px;
+    margin-right: 2rem;
 }
  
 nav a {
-    display: block;
     color:darkgray;
     text-decoration:none;
-    padding: 10px 20px;
 }
  
 nav a:hover {
     color: #0990de ;
 }
+
+.bandeau {
+    padding: 8rem 10rem;
+    background-image: url(../IMG/bandeau.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.bandeau h1 {
+    margin: 2rem 0 0 0;
+    font-size: 8rem;
+}
+
+.bandeau h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 100;
+}
+
