@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*partie header*/
+
+header img {
+    padding: 1rem 2rem;
+}
+
+nav ul {
+    margin:0;
+    padding: 0;
+}
+ 
+nav li {
+    list-style:none;
+    float:right;
+    margin-right: 8px;
+}
+ 
+nav a {
+    display: block;
+    color:darkgray;
+    text-decoration:none;
+    padding: 10px 20px;
+}
+ 
+nav a:hover {
+    color: #0990de ;
+}
